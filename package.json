@@ -1,0 +1,33 @@
+{
+  "name": "light_exercies",
+  "version": "1.0.0",
+  "description": "周测扫描数据，异常处理模块",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development PORT=${PORT} ./node_modules/.bin/nodemon app.js",
+    "start_win": "cross-env NODE_ENV=development PORT=${PORT} nodemon app.js"
+  },
+  "dependencies": {
+    "best-require": "^1.1.4",
+    "cors": "^2.8.5",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^1.1.1",
+    "koa-locales": "1.5.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.0.0",
+    "koa-send": "^3.2.0",
+    "koa-xml-body": "^2.0.0",
+    "mongodb": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.17zuoye.net:10022/klx_euler/light_exercies.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
